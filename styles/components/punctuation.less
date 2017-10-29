@@ -1,82 +1,82 @@
-.sgml .punctuation.definition.tag {
+.style--sgml .style--punctuation.style--definition.style--tag {
   color: @syntax-text-color;
 }
 
-.punctuation {
-  &.section {
+.style--punctuation {
+  &.style--section {
     color: @natural;
   }
-  &.scss {
+  &.style--scss {
     color: @syntax-text-color;
   }
-  &.json {
-    &.separator {
+  &.style--json {
+    &.style--separator {
       color: @natural;
     }
   }
-  &.definition {
-    &.comment {
+  &.style--definition {
+    &.style--comment {
       color: @light-gray;
     }
 
-    &.json {
-      &.array,
-      &.dictionary {
+    &.style--json {
+      &.style--array,
+      &.style--dictionary {
         color: @natural;
       }
     }
 
-    &.css,
-    &.less,
-    &.scss {
-      &.entity {
+    &.style--css,
+    &.style--less,
+    &.style--scss {
+      &.style--entity {
         color: @cyan;
       }
-      &.constant {
+      &.style--constant {
         color: darken(@pink, 10%);
       }
     }
 
-    &.string.begin.json,
-    &.string.end.json {
+    &.style--string.style--begin.style--json,
+    &.style--string.style--end.style--json {
       color: lighten(@red, 25%);
     }
 
-    &.string,
-    &.variable,
-    &.array {
+    &.style--string,
+    &.style--variable,
+    &.style--array {
       color: darken(@pink, 10%);
     }
 
-    &.regexp {
+    &.style--regexp {
       color: @cyan;
     }
 
-    &.parameters{
+    &.style--parameters{
       color: darken(@cyan, 10%);
     }
 
-    &.tag {
+    &.style--tag {
       color: darken(@green, 20%);
     }
 
-    &.heading,
-    &.identity {
+    &.style--heading,
+    &.style--identity {
       color: @blue;
     }
 
-    &.bold {
+    &.style--bold {
       color: @light-orange;
       font-weight: bold;
     }
 
-    &.italic {
+    &.style--italic {
       color: @purple;
       font-style: italic;
     }
   }
 
-  &.section.embedded {
+  &.style--section.style--embedded {
     color: darken(@red, 10%);
   }
 
