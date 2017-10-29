@@ -1,16 +1,16 @@
-.variable {
+.syntax--variable {
   color: @syntax-text-color;
 
-  &.less,
-  &.scss {
+  &.syntax--less,
+  &.syntax--scss {
     color: @blue;
   }
 
-  &.interpolation {
+  &.syntax--interpolation {
     color: darken(@red, 10%);
   }
 
-  &.parameter.function {
+  &.syntax--parameter.syntax--function {
     color: @cyan;
   }
 }

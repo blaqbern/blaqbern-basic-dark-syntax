@@ -1,24 +1,24 @@
-.constant {
+.syntax--constant {
   color: @red;
 
-  &.character.escape {
+  &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
-  &.numeric {
+  &.syntax--numeric {
     color: darken(@pink, 20%);
   }
 
-  &.other {
+  &.syntax--other {
     color: @red;
   }
 
-  &.other.color,
-  &.other.rgb-value {
+  &.syntax--other.syntax--color,
+  &.syntax--other.syntax--rgb-value {
     color: darken(@pink, 20%);
   }
 
-  &.other.symbol {
+  &.syntax--other.syntax--symbol {
     color: @green;
   }
 }
